@@ -22,6 +22,7 @@ ul {
 .rezeptliste {
     display: flex;
     list-style: none;
+    margin-top: 115px;
 }
 
 ol {
@@ -34,6 +35,9 @@ ol {
     font-size: 20px;
     background-color: blanchedalmond;
     padding: 3.5em;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
 
 }
 
@@ -46,8 +50,16 @@ p {
 }
 
 img {
-    display: block;
+  display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.header {
+
+}
+
+.main-content {
+    height: 250px;
 }
