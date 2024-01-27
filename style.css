@@ -63,3 +63,21 @@ img {
 .main-content {
     height: 250px;
 }
+
+button {
+    font-weight: bold;
+    position:absolute;
+    left: 38%;
+    top: 50%;
+    background-color: white;
+    color: brown;
+    border-radius: 10px;
+    padding: 10px;
+    min-height: 50px;
+    min-width: 200px;
+}
+
+button:hover {
+    background-color: pink;
+    transition: 0.8s;
+}
