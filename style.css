@@ -1,17 +1,31 @@
 h1 {
     font-size: 60px;
+    font-style: italic;
     text-align: center;
-    color: black;
-    background-color: aliceblue;
-    margin: 75px;
-    border: 2px;
-    border-color: black;
-    border-style: solid;
-    padding: 10px;
+    color: brown;
+    margin: 25px 50px 12px 50px;
+    padding: 40px;
 }
 
 body {
     background-color: blanchedalmond;
+    font-family: serif
+}
+
+.logobox {
+    background-color: white;
+    margin: 0 0 25px 0;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#logo {
+    display: block;
+    width: 150px;
+    height: 150px;
 }
 
 ul {
@@ -19,31 +33,46 @@ ul {
     font-size: 20px;
 }
 
-.rezeptliste {
-    display: flex;
-    list-style: none;
-    margin-top: 115px;
-}
 
 ol {
     color: brown;
     font-size: 20px;
 
 }
+
+
+.main-content {
+    text-align: center;
+    margin: 12px 50px 25px 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main-content img {
+    height: 200px;
+    width: auto;
+    border-radius: 15px;
+}
+
+.rezept img:hover{
+    transform: scale(1.2);
+    transition: all ease ;
+    transition-duration: 0.7s;
+}
+
 .rezeptlink {
+    display: inline-block;
+    text-align: center;
     color: brown;
     font-size: 20px;
     background-color: blanchedalmond;
-    padding: 3.5em;
-    border: 2px;
-    border-style: solid;
-    border-color: black;
-
+    padding: 25px;
+    margin: 10px 10px 10px 10px;
 }
 
-a:hover {
-    background-color: white;
-}
+
 p {
     color: brown;
     font-size: 20px;
@@ -54,30 +83,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 15px;
 }
 
-.header {
 
-}
-
-.main-content {
-    height: 250px;
-}
-
-button {
-    font-weight: bold;
-    position:absolute;
-    left: 38%;
-    top: 50%;
-    background-color: white;
-    color: brown;
-    border-radius: 10px;
-    padding: 10px;
-    min-height: 50px;
-    min-width: 200px;
-}
-
-button:hover {
-    background-color: pink;
-    transition: 0.8s;
-}

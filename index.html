@@ -10,22 +10,32 @@
 </head>
 
 <body>
+  <div class="logobox">
+    <a href="index.html"><img id="logo" src="logo.jpeg"></a>
+  </div>   
+
   <div class="header">  
     <h1> Odin Recipes</h1>
   </div>
 
   <div class="main-content">
-    <ul class="rezeptliste">
-        <li><a class="rezeptlink"
-               href="recipes/lentildaal.html">Lentil Daal</a></li>
-        <li><a class="rezeptlink"
-               href="recipes/burritos.html">Vegan Burritos</a></li>
-        <li><a class="rezeptlink"
-               href="recipes/mincedmeat-leek-soup.html">Vegan Minced Meat-Leek-Soup</a></li>
-    </ul>
+    <div class="rezept">    
+      <a class="rezeptlink daal"
+         href="recipes/lentildaal.html"><img src="recipes/img/lentildaal.webp"></a>
+      <p>Lentil Daal</p>
+    </div>
+    <div class="rezept">   
+        <a class="rezeptlink burrito"
+           href="recipes/burritos.html"><img src="recipes/img/burritos.webp"><a>
+      <p>Burritos</p>
+    </div>
+    <div class="rezept">               
+        <a class="rezeptlink soup"
+           href="recipes/mincedmeat-leek-soup.html"><img src="recipes/img/mincedmeat-leek-soup.jpg"></a>
+      <p>Minced Meat-Leek-Soup</p>
+    </div>           
   </div>
   
-  <button type="button" onclick="alert('Ich liebe dich!')">Hallo Röschen</button>
 
 </body>
 
