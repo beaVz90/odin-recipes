@@ -7,6 +7,15 @@ h1 {
     padding: 40px;
 }
 
+h2 {
+    text-align: center;
+}
+
+.subheadline {
+    text-align: center;
+    margin-top: -25px;
+}
+
 body {
     background-color: blanchedalmond;
     font-family: serif
@@ -86,4 +95,46 @@ img {
   border-radius: 15px;
 }
 
+.rezeptseite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
 
+.rezeptoben {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.links h2 {
+    align-self:flex-start;
+}
+
+.rechts {
+    align-self: stretch;
+
+}
+.rechts img{
+    margin: 0;
+    width: 100%;
+
+}
+.unten {
+    width: 870px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.unten h2 {
+    align-self: flex-start;
+}
