@@ -118,6 +118,11 @@ img {
 
 .links h2 {
     align-self:flex-start;
+    color: brown;
+    padding: 10px;
+    margin-top: 0;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .rechts {
@@ -140,4 +145,12 @@ img {
 
 .unten h2 {
     align-self: flex-start;
+    color: brown;
+    padding: 10px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.links ul, .unten ol {
+    padding-left: 20px;
 }
