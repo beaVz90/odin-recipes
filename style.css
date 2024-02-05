@@ -55,6 +55,7 @@ ol {
     margin: 12px 50px 25px 50px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
