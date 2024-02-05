@@ -105,7 +105,7 @@ img {
 .rezeptoben {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap:wrap-reverse;
     justify-content: center;
     gap: 50px;
 }
