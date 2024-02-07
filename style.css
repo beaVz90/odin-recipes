@@ -3,9 +3,20 @@ h1 {
     font-style: italic;
     text-align: center;
     color: brown;
-    margin: 25px 50px 12px 50px;
-    padding: 40px;
+    margin: 25px auto 12px auto;
 }
+
+@media(max-width: 720px) {
+    h1 {
+      font-size: 40px;
+    }
+  }
+
+  @media(max-width: 360px) {
+    h1 {
+      font-size: 32px;
+    }
+  }
 
 h2 {
     text-align: center;
