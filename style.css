@@ -24,7 +24,7 @@ h2 {
 
 .subheadline {
     text-align: center;
-    margin-top: -25px;
+    margin-top: -10px;
 }
 
 body {
@@ -145,6 +145,12 @@ img {
     width: 512px;
 
 }
+
+@media(max-width: 512px) {
+    .rechts img {
+      width: 480px;
+    }
+  }
 .unten {
     max-width: 870px;
     display: flex;
